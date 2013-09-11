@@ -21,5 +21,6 @@ key/mousePressed
 
 * Variables are about **relationships** between numbers and the relationship over time.
 
+"Pixel" and "coordinate" are analagous(sp)
 
-
+Good debugging technique is to isolate lines of code.
