@@ -1,0 +1,25 @@
+#### The best tool to help with the coordinate grid is: **Graph Paper**
+
+#### Use the **Polar coordinate system** for ellipses and circular movement.
+
+HALF_PI is 90 degrees
+PI is 180 degrees
+?? What's QUARTER_PI then??
+
+* TWO_PI is the entire circle.
+* QUARTER_PI is a 1/4.
+* Remember it's just numbers. PI = 3.14. Multiply and divide accordingly.
+
+rotate(); ===> accepts numbers from 0 - 6.28. It rotates from (0,0), the center of the circle.
+
+<dt>What are some pre-defined variables in Processing?</dt>
+frameCount
+mousex/y
+width
+height
+key/mousePressed
+
+* Variables are about **relationships** between numbers and the relationship over time.
+
+
+
