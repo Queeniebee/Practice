@@ -1,0 +1,11 @@
+# Debugging Techniques
+
+* Commenting out line by line
+
+* Write Comments for what you _want to do_.
+
+* Draw out animation frame by frame
+
+* Break it out into smaller sketch
+
+* Find a human and walk them through what _want to do_.
