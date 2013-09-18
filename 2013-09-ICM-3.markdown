@@ -1,5 +1,7 @@
 # Debugging Techniques
 
+**Always hit CMD-T ==> it formats the code
+
 * Commenting out line by line
 
 * Write Comments for what you _want to do_.
@@ -9,3 +11,10 @@
 * Break it out into smaller sketch
 
 * Find a human and walk them through what _want to do_.
+
+Processing/Java has BLOCK SCOPE. (and remember, remember JavaScript has function scope)
+
+state buttons
+toggle buttons
+
+	
