@@ -15,8 +15,9 @@
 * Find a human and walk them through what _want to do_.
 
 Processing/Java has BLOCK SCOPE. (and remember, remember JavaScript has function scope)
-
-state buttons
-toggle buttons
+<dl>
+<dt>state buttons</dt>
+<dl>For state stuff you need another variable usually a Boolean that tracks the state. Check out the bouncing ball example on the class site.</dt>
+<dt>toggle buttons</dt>
 
 	
