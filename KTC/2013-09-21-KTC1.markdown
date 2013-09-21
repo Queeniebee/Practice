@@ -1,0 +1,29 @@
+# Day 1
+
+? openssl was in Jeff's library ?
+
+loading an image will be very similar to loading a video
+
+the project generator will make a relative path, but still
+** your project should be three levels from main oF folder APPS**
+
+the main thing is that the XCodeproject is *THREE* levels from root**
+
+Wha? ==> the only this the computer knows how to draw is a triangle.
+
+ofSetCircleResolution(int) ==> adds more points to smooth it out to look less jaggered.
+
+use floats! use floats! when dealing with position/coordinates
+
+the update() function is constantly updating the data, doing the math
+the draw() funciton just draws your images to the screen
+<dl>
+<dt>your update function is using your CPU</dt>
+<dt>your draw function is using your GPU</dt>
+</dl>
+
+Our applications (I forgot what this was going to be)
+
+#### All class variables and functions should be defined in the Header file!! 
+
+## Do not pollute the global variable scope
