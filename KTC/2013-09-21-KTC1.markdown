@@ -27,3 +27,16 @@ Our applications (I forgot what this was going to be)
 #### All class variables and functions should be defined in the Header file!! 
 
 ## Do not pollute the global variable scope
+
+Another name for the .cpp file is the _implementation_ file.
+
+when you use n++ it first uses the value of n
+++n increments first so uses the value n+1 first
+
+both oF and Processing use the *painters algo* ==> the last thing you draw is on the top
+
+HW is to figure out how to apply painter's algo in the mouse sketch
+
+remember, remember we want to simply DRY out code
+
+Don't use Constructors, use a function called Setup within your own cpp/h files
