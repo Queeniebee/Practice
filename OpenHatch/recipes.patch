@@ -1,0 +1,19 @@
+--- a/recipes/README 
++++ b/recipes/README 
+@@ -5,4 +5,6 @@
+ the Creative Commons Attribution-ShareAlike License version 3.0; copyright
+ belongs to the individual contributors.
+ 
++This set of recipes is enhanced to have more garlic. (:
++
+ The character encoding of the recipes is UTF-8.
+--- a/recipes/MelanzaneParmigiana.txt 
++++ b/recipes/MelanzaneParmigiana.txt 
+@@ -8,6 +8,7 @@
+ 
+     * 3 or 4 big aubergines
+     * tomato sauce
++    * 1 clove garlic
+     * about 200 or 300 grams of mozzarella cheese, sliced
+     * grated Parmesan cheese
+     * flour

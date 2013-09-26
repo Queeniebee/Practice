@@ -1,0 +1,11 @@
+--- oven-pancake.txt 
++++ oven-pancake_result.txt 
+@@ -11,7 +11,7 @@
+ 
+ ==Procedure==
+ 
+-1. Preheat oven and oil an eight-inch oven-safe skillet.
++1. Preheat oven to 450F and oil an eight-inch oven-safe skillet.
+ 
+ 2. Combine dry ingredients: flour, baking powder,
+    baking soda, salt, and sugar.
