@@ -1,0 +1,139 @@
+## Matrix ==> the snowman
+
+ofTranslate() ==> the coordinate system moves, shifts the origin. changing the coordinate space
+ofPushMatrix() && ofPopMatrix(); 
+ofScale() ==> ...???
+ofRotate() ==> there are three degrees of rotation the ZAXIS moves like a wheel.
+ there is ofRotateZ(), ofRotateX() etc
+ stuff rotates along its origin, upper left hand corner
+
+remember the Painter's Algo ==> things that are drawn last appear first
+
+setup(){
+
+	for(){
+
+	snowmanSpeed
+
+
+	}
+}
+
+update(){
+
+	for(int i =0; i<3; i++){
+	snowmanPos[i].x = cos(snowmanSpeed[i]) * 200;
+
+	
+	}
+
+
+}
+
+
+ofPushMatrix();
+{
+	ofTranslate(boatPos);
+	for(int i=0; i<3; i++){
+		ofPushMatrix();
+		ofTranslate();
+		drawSnowman();
+		of
+	}
+
+
+
+} 
+
+
+
+ofLogNotice is similar to cout but the OpenFrameworks version
+created three random numbers for our snowman
+ofScale then ofTranslate ==> the ofTranslate is affected by the ofScale function
+
+when initializing the setup, set the Y position for the Snowman:
+	snowmanPos[i].y = ofMap(snowmanSize[i], 0.5, 1, 100, 0);
+		this means that if the snowman is half the size then we need to push it down by how many pixels, if it's full size then we don't need to push it at all.
+		
+
+the update function is messing with the X position 
+
+ofSetRectMode(); ==> changes the center point of a rectangle, takes the parameters (look at the suggestions from XCode)
+
+there is perlaNoise ==> used generally for random movement
+	call the ofNoise(); it takes an argument. will return a random # of 0 and 1. Each time you call it, it will return a smoothed value. Smoothed meaning ==>
+	when you ask for a Noise value, you essentially a coordinate between 0 and 1, with 0 being BLACK and 1 being WHITE
+	they will fade smoothly during your journey to 0 and 1
+
+float y = ofNoise(pos[i].x, pos[i].y); //this tells Noise function where to get the…………???? [not sure how anything is being done]
+
+
+the Image project
+bin/data/
+	the root location of where your application will look for files.
+	if you ever need the path for a file use ofToDataPath("thefile") by default it is the relative path ofToDataPath("", true) gives absolute path	
+transparancy is enabled by default
+filename.loadImage("filename.extension") brings in the image ==> and do this in the setup
+
+there is a "Free Image" function [i don't know what that does]
+ofImage is creating an openGL texture that gets drawn to the screen so you can mess with the pixels, get down and dirty
+filename.draw(xpos, ypos); => places it on the screen
+
+hardway of doing [something] with images
+	unsigned char pixels[] //unsigned removes the negative values of chars from consideration <-255, +255>
+				//so the images width, height, and the number of color channels (r,g,b) or (r,g,b,a)
+
+so for that idea above this is the syntax needed:
+	int nPixels = theCount.getWidth() * theCount.getHeight() * 4 
+	unsigned char *pixels = theCount.getPixels(); //this is a pointer back to the actual pixels; because the pixels are already loaded into an array
+
+
+we don't really want to use the .draw() to draw theCount; we want to draw it pixel by pixel.
+	for(int y=0; y<theCount.getHeight(); y++){
+	 for(int x=0; x<theCount.getWidth(); x++){
+	  int i = (y*theCount.getWidth() + x; //we are in the right row and will move by column
+	  ofSetColor(pixels[i]+0, pixels[i]+1, pixels[i]+2, pixels[i]+3) //we are getting the color value from our position in the array
+
+
+)
+	
+}
+
+RE bad OpenGL style
+	you would upload the data all at once, all the array of pixels
+	important to separate the CPU and GPU operations
+	you don't want to place OpenGL shit to the CPU, so don't put it in loops within loops with the main loop the draw()
+
+the ofMesh object is the fundamental openFrameworks object -- like fundamental 3D object.
+what you use to represent any object in a 3D world
+
+a MESH fundamentally is made up of vertices ie TRIANGLES!!!sounds familiar re 3D printing ish)
+next up is color ==> you can set vertex color if it's to be one color or something.
+when mapping textures though you need to remember that OpenGl does circles from -1 to 1
+
+in the example we remapped (though not using the map function it was added later) so that the coordinates were now 0 to 1. I don't have my head around that
+
+YOU supply the set of triangles that make up the object of MESH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
