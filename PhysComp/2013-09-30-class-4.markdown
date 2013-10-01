@@ -1,0 +1,56 @@
+**where Joelle officially does not know what she is doing**
+
+###DC Motors
+
+if you switch the polarity of a DC Motor i.e. switch the power and ground, you change the direction of the spin
+
+to vary speed of the DC Motor you do Pulse Width Modulation
+
+DC Motors are based on the principle of induction ==> that you generate a magnetic field around a current and then introduce a magnet, the magnet moves according to the +/- values
+the diode in the High Current Load Lab prevents current from going back into the DC Motor. Though some transistors have diodes it is always better and safer to use a diode.
+to protect the power supply you would put the diode in parallel with the transistor
+
+
+###Transistors
+the general rule is to look at the load (motor) you're working with and then find in the transistor's data sheet if it can handle that type…that level of voltage.
+
+<dl>Generally</dl>
+<dt>MOSFET ==> extremely sensistive, used in BIG Loads</dt>
+<dt>BiPolar ==> low voltage applications</dt>
+</dl>
+
+*THERE IS AN ERROR ON THE FRITZ HIGH CURRENT LOAD LAB*
+Do not use pin8, use one of the tilda ones because those pins are Analog Output
+
+(ugh)
+###On the Photocell - Music Notes Lab
+the photocells are variable resistors
+there is always some resistance, some current consumed.
+
+the speaker is in pin8, one of the digital pins.
+PWM ?not used to make noise?
+  the function for PWM is analogWrite();
+
+PWM and frequency are different ==> frequency is changing the time of the pulse; this change in time is what generates time.
+				==> PWM is a set interval of time, except your changing ??how long you pulse high and how long you pulse low??
+
+
+
+### On Servo Lab
+a servo is a DC Motor with stuff on top, like resistor and pentiometer stuff like that
+most servos only go 180 degrees, that's why it is important to remap using the map(); function
+
+there is a site that B. recommends [this site](www.flying-pig.co.uk) it shows a bunch of circuits you can make using only one motor, and fun mechanics
+there is also Dustyn Robert's book ==> is this book linked from the class page
+
+*Digital Input/Output range(0,1)
+*Anglog Input range(0,1023)
+*Analog Output range(0-255)
+
+a variable resistor only has two connections one to power and one to ground. a pentiometer has three the third to a pin. ?I don't know what that MEANS?
+
+for Pam's code:
+  for the slider is 1k resistor
+
+Note that a speaker also works by induction like a DC Motor
+
