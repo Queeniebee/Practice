@@ -55,9 +55,11 @@ for Pam's code:
 Note that a speaker also works by induction like a DC Motor
 
 _Questions_:
--is a pentiometer not a variable resistor?
--will i always need an arduino sketch to run a graphical sensor program?
--(look at last week's lab for questions about the code and schematic)
+is a pentiometer not a variable resistor?
+
+will i always need an arduino sketch to run a graphical sensor program?
+
+(look at last week's lab for questions about the code and schematic)
 
 -for LED 500ohm resister is good for an LED 150-500
 -Serial.available() ==> tells arduino to listen on the port for any data
