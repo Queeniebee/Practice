@@ -59,4 +59,13 @@ _Questions_:
 --will i always need an arduino sketch to run a graphical sensor program?
 --(look at last week's lab for questions about the code and schematic)
 
+--for LED 500ohm resister is good for an LED 150-500
+--Serial.available() ==> tells arduino to listen on the port for any data
+--serialevent() ==> anytime it senses data coming to/from the serial it starts this function
+--this Serial library is for all serially connected devices
 
+techniques to structure more than one packets of information to/from serial port
+punctuation (virtual colorMixer)
+call/response (arduino doesn't send message until processing calls for it)
+
+--the core of the functions are the same. you'll always use a serialEvent(), initialize a Serial object, *decide which is the best message formatting scheme for your type of message*
