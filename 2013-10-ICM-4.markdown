@@ -1,3 +1,15 @@
 ## Class 4
 
 #### More on For Loops
+
+_you type functions like you type variables;_ 
+    >>Think about what type of TYPE you want/need to return
+
+to decelerate you need to multiply by less than one
+to accelerate you need to multiply by more than one
+
+*you can only return one type-thing from a function*
+
+whenever you want to make code into functions, the items that change should be arguments.
+
+
