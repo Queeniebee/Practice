@@ -1,17 +1,23 @@
 
 * PhysComp
+  >> serial communication with openFrameworks and Processing
 
-  >> serial communication with openFrameworks and not Processing
+* Write Processing class
 
-* Processing class
+* !!Scandal!!
 
-* List of OPW internship contacts
+* List OPW internship contacts
+  >>Fedora, and possible projects
 
 * Get ready for work
 
 * WORK
 
 * Applications 
+  >>inspiring image is Renee/Irene Cox portrait of herself as Queen Nanny::PRESENCE
+  >>I think about it quite often.
+  >>Friday, the MOMA is open late I'll find a similar piece OR use the Kara Walker piece
 
 * Dropped Names 
+
 
