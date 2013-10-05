@@ -1,0 +1,79 @@
+## Day 3
+
+a Polyline is a contiguous line; it can have many points and straight line segments
+	an object that allows you to assemble many lines to shape arcs and curves, stuff like that
+	you can also do interesting things mathematically and graphically
+		you can smooth (there is a special algorithm) ?catenol? 
+		ofPoint getPointAtPercent() ==> 
+
+an ofPath is a container for a Polyline
+
+below is a diagram of the hierarchy
+
+font.getStringAsPoints()
+	|
+    vector<ofPath>
+-------------------------------
+|			      |
+ofPath.getTessellation()      ofPath.getOutline()
+|			      |
+ofMesh                        vector<ofPolyline>
+			      |
+                              ofPolyline.points
+
+it is very dangerous to use ofTranslate w/o a push/popMatrix();
+
+in C++ you can define what an operator does for any class, like override the '+' operator
+so for the ofPolyline class, the [] has been override
+
+extrude: taking a 2d shape and pulling it up so that it have volume
+
+when dealing with ofMesh: vertice, texture and normal; a normal points in the direction of the surface,
+>>the computer doesn't know which way the surface should face
+..help OpenGL determine how light falls on the surface
+look into Extrude 005 for an example
+	VARIABLE.addNormal(x,y,z);
+normals perhaps should be smoothed...in the example you can see all of the triangles and that's not good
+
+SHADERS
+=======
+
+the graphics pipeline
+--------------------
+
+so far we have just fed OpenGL vertex arrays, elements arrays
+
+for a long time there was only "the fixed function pipeline"
+
+"programmable pipeline" ==> whenever you use a shader you are taking control of the rendering pipeline that translates 2d to 3d
+
+GLSL graphics language
+
+passthrough.vert ==> specifies that you'll be taking over control of the vertex pipeline
+  >>this is a vertex shader
+
+passthrough.frag ==> the fragment shader gets called after the vertex shader
+
+swilziling in GLSL
+
+color.rgb = vec3(0.5,0.5,1)
+
+shader.vert
+uniform float time;
+
+can't update a shader within the test::update() function
+
+just like th planets example, the ofVideoGrabber/ofCam bind/unbind the data from the camera to a rectangle
+
+texture coordinates are not normalized in GLSL
+
+
+Other Stuff
+==========
+ping-ponging
+
+fbo a different canvas you can draw onto; it's like Processing's createGraphics (i don't know what that it, so………)
+>>
+
+if you're really interested in shaders checkout Kyle MCD's ofxCamShader
+
