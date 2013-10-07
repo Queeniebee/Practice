@@ -1,0 +1,71 @@
+## Class 5
+
+Good book: Reading Schematics
+
+#### Serial Communication
+
+*serial communication one of the most standard ways of communicating btwn devices
+
+*asynchronous communication: 
+  two decives must agree on the baud rate that they will read/send data; 9600 bits/sec is the accepted default rate.A lower baud rate means less power, slower
+
+  You need 3 connections RX ==> TX
+		         TX ==> RX
+			 GND => GND 
+
+  In the Arduino board, the RX/TX pins are PIN0 and PIN1
+
+*synchronous
+ The devices do not have a separate clock, that is the only difference
+ This results in one more connection, Clock ==> Clock
+ Only one of the devices has a clock.
+ Some LED Matrixes are synchronous
+
+How Big Is Your Package?
+------------------------
+8bits is usually the standard size, but you need to consider how large the smallest packages of data you are sending between the two devices
+
+there is something called Parity: an extra bit at the end of every byte you send, a way to error check
+there are Stop Bits
+
+so, 9600-8-N-1
+  this is the baud rate, the size of bytes, parity, and the number of Stop Bits
+[I will need to review this]
+
+10bits == 512
+and all bits equal 1024
+
+8bits == 256
+
+SOO, AnalogInput can only take in 10bits and AnalogOutput gives out 8bits
+
+*Serial Buffer
+A physical device that holds data coming from the serial device temporarily; it holds the data for a certain amt of time that you can access in order to do something with that data
+Microcontrollers generally don't have a serial buffer, but your computer does! You can enable that buffer using Processing/openFrameworks
+
+*ASCII
+The Arduino Serial Monitor wants ASCII, that's why I was getting the gobbledy-gook
+
+Questions to ask yourself
+-------------------------
+
+*Am I getting all of my bytes?
+*Am I getting them in the right order?
+*Is my value/data part of a larger number?
+  >>Like, am I supposed to wait for 5bytes or just get 2bytes
+*Is my data getting garbled?
+  >>Usually, this is a noise issue so make sure your wiring is tight
+
+To answer these questions, you can use one of two methods
+--Call/Response i.e. handshake
+
+--punctuation
+>>you format your message
+
+
+Questions from Lab
+------------------
+You need to upload the Arduino sketch to the board, check the serial monitor, close the serial monitor, and then run Processing sketch
+
+The call-and-response worked!!
+  
