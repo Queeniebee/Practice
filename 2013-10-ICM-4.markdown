@@ -1,1 +1,24 @@
 ### ICM Week 7 (or maybe 8)
+
+loadFont() is create a font
+createFont() is to load a font
+(i know!!!)
+
+textFont() accepts an instance of the PFont class
+textSize()
+textAlign() accepts CENTER, etc values, x-coord and y-coord
+
+text() accepts an instance of String, second and third params are x-coords and y-coords
+
+remember remember:: the input of .split() is an instance of String, the output is an instance of Array
+
+Dictionaries or Dicts
+there is something called concordance
+
+a hash map:: an arbitrary objects as key,value pairs
+
+you can call the .keyArray() on a concordance object, it will only return the keys, the words not frequency which are the values.
+
+in Dictionaries the Key assumes a string
+
+*then we covered JSON*
