@@ -15,10 +15,15 @@ refer to difference of information importance
 also the arrival of new information
 ```
 > 5 notification levels
+
 ignore ==> display is off
+
 change blind ==> info of marginal impt
+
 make aware
+
 interrupt
+
 demand action
 
 * transitions
@@ -36,3 +41,7 @@ People habituate to periodic stimuli
 Loud noises while attention
 
 * Beware of raising noise floor when you don't intend to.
+
+* Demanding someone's attention is the easy part, holding it is the hard part; you only have 10minutes of concentration
+
+
