@@ -44,4 +44,6 @@ Loud noises while attention
 
 * Demanding someone's attention is the easy part, holding it is the hard part; you only have 10minutes of concentration
 
+### Scales of Space
 
+*Create a Notification System…without screens!!!
