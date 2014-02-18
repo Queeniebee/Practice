@@ -1,0 +1,53 @@
+Serial Communication Overview
+=============================
+
+* Asynch Serial Communication
+GND -> GND
+TX -> RX (Sender/Receiver)
+RX -> TX (Reciever/Sender)
+
+* Synch Serial Communication
+Clk -> Clk
+[same three as Asynch]
+
+* BaudRate
+number of Bits
+Parity (what the hell is *Parity*??)
+number of stop bits
+
+* Logic
+either true or false logic
+
+* Binary of ASCII
+serial communication will be sent/received in either
+
+* Formatting the data from the serial port
+Punctuation
+Call/Response
+
+WIRELESS COMMUNICATION
+======================
+<dl>
+<dt>Infared</dt>
+<dd>Good for pointing</dd>
+
+<dt>Radio Frequency</dt>
+<dd>Go a greater distance than infared</dd>
+</dl>
+
+NFC: near field communication
+--don't need contact, those tap cards, tracking systems
+
+use can use cellphone networks: GSM shields
+there is also bluetooth
+	bluetooth modules are actually *modems*; a modem is a device that translates one form a communication data to antoher
+	there are two modes: command and data mode
+
+Speaking to XBee in CoolTerm
+----------------------------
+ATMY: what's your ID number
+ATWR: memory
+ATDL: end point/destination:
+
+
+

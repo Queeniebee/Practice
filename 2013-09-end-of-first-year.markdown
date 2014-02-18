@@ -3,9 +3,8 @@ edit OpenFrameworks to compile on the command line
 	adjust from x86 to arch i386
 	NOTE: the compiler used is LLVM
 
-
 my final plan:
-create this character that is built on a series of extensible hardware and software platforms. More accurately, one platform that is extended and shortened according to needs of the person, group, or organization.
+create this character built on a series of extensible hardware and software platforms.
 
 Queeniebee
 --sensors that are removable from gloves, boots, undie. That's what she wears.

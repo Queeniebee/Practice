@@ -1,0 +1,110 @@
+reading response
+----------------
+I think it is an important question: Who is this community? Clara touched on this important point that we are also talking/alluding to identity.
+
+It is an important question to answer and to consider. Often, the word 'community' is used as a euphemism for poor PoC or just PoC. How is it affecting the community? is really What's happening to the brown people??? That's not always appropriate. Because the wealthy children of the Park Slopers, should I dismiss their community? 
+
+When Rena asked in crouched terms, but if you were in crown heights where were the black people, there are blocks of crown heights that resmeble the average ITP classroom and not what we knew as Crown Heights.
+
+The conversation in class danced around
+
+What is the purpose of all of this? Who is this for? It is not for the poor. Is it for the 'middle class'? Well, what is middle class?
+Enlighetned self-interest. I didn't shrink from that term. yeah yeah yeah all the fluffy things about ITP but I am here because I want the added value of having a masters. Scholarship is not bound to any institution. I could have applied to SFPC or another alternative school to aide my creative practice. My creative practice--I could jumpstart my creative practice through other methods, but I will be at a higher pay-grade with a masters. 
+
+What Byrne is afraid has already happened. The creative people should need masters as point of entry to the important conversations.
+
+I can't help but identity an utter hypocrisy railing against gentrification when we attend a university that is proactively displacing a community that has brought such cultural wealth and cache to city in which it lives.
+I owe it to the people and culture that has been displaced and disenfranchised to be more intentional in my work and critique.
+
+who is new york city for? Who is a new yorker? I roll my eyes whenever anyone talks about diversity of nyc. 
+
+My sister just bought a house is a rapidly changing neighborhood in Washington D.C. and we started a joke between us. The new white homeowners don't say hi, to anyone. It's hilarious. The last I was there, I went on a walk with my sister, her friend, and his daughter. A young mother with her child passed us. "Hello" and a smile. Nothing. Ha!
+Diversity.
+
+When these policy decisions to upzone downtown Brooklyn and subsquently other neighborhoods 
+
+Joan Didion, Meghan Daum, I don't know who else, please another writer !oh that Haitian woman! who published that piece in The Nation.
+New York has been mythologized and it's always been a place where the people can come from somewhere else and thrive. But be born near bottom you won't rise.
+All takes on how New York is for the very rich and the very young.
+
+Functions of cities.
+
+
+### Lili Cheng
+
+from FUSE Labs @ Microsoft
+
+* Your past stays with you (ohboi)
+* Work on things you love
+* embrace contrast
+
+Designing systems which combine people & technology
+
+(just what will I write for Performed Identities)
+
+*Twigg*
+early in Twitter API
+real-time Public Social Data
+
+processed the URLS that people were sharing in realtime
+later expanded to Facebook
+
+Another tool: *Montage*
+type a word in and create a document (I didn't know about this!!)
+
+From Montage *So.cl* was born
+
+Social Networks were once developed as walled gardens, ie Facebook
+now they are aiming to integrate into the web
+
+The Design Expo:
+work with design schools, give a topic and students create projects
+last yr, How might data particularly information that makes civic society run make for a better place to live
+
+Yo, the nonAmerican 
+
+design of social networks the web your devices will be profoundly different in 5yrs and you will be the people who make that happen
+everythin will incorporate your city's pulse
+
+indicators of community well-being from interviews
+one of the big indicators of community success is how community members are able to communicate with each other
+
+How can you use this social networking data on a micro-scale? People need to be able to find one another and to be able to communicate (Threadbare!!! Y'all)
+
+Not anyonymous, but vehicle for building community hub
+even though twitter and webrtc and other tech exists, we do not do a good job on local communication. I don't know my local leaders. The fuck is going on! This is a gapping hole in tech that needs to be filled. The comforting looking server…
+
+Face to face is primary--but how do we implement tech to improve this communication
+*WHOOLY*
+making laten hyperlocal content 
+Katie London is one of the project leaders (and she's teaching @ ITP soooo I will contact her?)
+
+*Newspad: Collaborative News*
+
+Project Sentient Data
+Challenge: What kinds of new applications can you imagine and build when data is translated to emotion and relationships?
+
+exploring emotions and relationships as primary vectors of engagement
+
+[i am confused by the community discussion because i don't think any communities including the privileged should be dismissed. nor do i think we should use community as a euphemism for PoC and the poor. We see the poor as PoC. However, I do think that privilege should be made explicit, and I don't think the answer is to get a grad student to develop another nonprofit]
+
+WHY AREN'T US PUBLIC SCHOOLS TEACHING CODE/PROGRAMMING? WHY????
+*KoDo*??
+a game that teaches programming, more gamified than scratch
+
+*Spark*
+a prettier version of KoDu
+
+Questions
+----------
+Why do you think technologies like Twitter aren't successfully used on the local
+despite using these technologies that designed for big scale use, why aren't used more on a local level
+(somebody else asked the question)
+'the tools are designed to connect you to people you know. twitter is a bit different; because neighborhoods are very diverse, people don't know emails.' (I think its the lack of small networks) Lili doesn't know why. 'we don't have good directories to finding the people who live on your street' 'omg omg omg the small wifi network, oh omy goodness'
+
+what happends when fewer companies control everything you buy? what happens when there aren't small companies?
+'you need different kinds of people thinking about computer science'
+
+creating systems to enable people to make things :: this all day everyday
+
+  
